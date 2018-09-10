@@ -1,0 +1,393 @@
+p
+{
+	font-family: party business, arial;
+}
+
+a
+{
+	font-family: aniron, arial;
+}
+h2
+{
+	font-family: aniron,arial;
+	font-size: 1.4em;
+	padding-bottom: 30px;
+	padding-top: 20px;	
+}
+/* decoration titre*/
+
+ h2 #zinz1
+{
+	font-family: tengwar annatar, arial;
+	color: #F05411;
+	font-size: 1.1em;
+}
+
+ h2 #zinz2
+{
+	font-family: tengwar annatar, arial;
+	color: #F05411;
+	font-size: 1.1em;
+}
+ h2 #zinz3
+{
+	font-family: tengwar annatar, arial;
+	color: #F05411;
+	font-size: 1.1em;
+}
+ h2 #zinz4
+{
+	font-family: tengwar annatar, arial;
+	color: #F05411;
+	font-size: 1.1em;
+}
+ h2 #zinz5
+{
+	font-family: tengwar annatar, arial;
+	color: #F05411;
+	font-size: 1.1em;
+}
+ h2 #zinz6
+{
+	font-family: tengwar annatar, arial;
+	color: #F05411;
+	font-size: 1.1em;
+}
+ h2 #zinz7
+{
+	font-family: tengwar annatar, arial;
+	color: #F05411;
+	font-size: 1.1em;
+}
+ h2 #zinz8
+{
+	font-family: tengwar annatar, arial;
+	color: #F05411;
+	font-size: 1.1em;
+}
+ h2 #zinz9
+{
+	font-family: tengwar annatar, arial;
+	color: #F05411;
+	font-size: 1.1em;
+}
+ h2 #zinz10
+{
+	font-family: tengwar annatar, arial;
+	color: #F05411;
+	font-size: 1.1em;
+}
+ h2 #zinz11
+{
+	font-family: tengwar annatar, arial;
+	color: #F05411;
+	font-size: 1.1em;
+}
+ h2 #zinz12
+{
+	font-family: tengwar annatar, arial;
+	color: #F05411;
+	font-size: 1.1em;
+}
+
+body
+{
+	background-image: url(https://image.noelshack.com/fichiers/2018/36/7/1536472099-bg-light.png);
+}
+
+.card-header
+{
+	background-color: #F05411;
+}
+
+.navbar
+{
+	background-color: #F05411;
+}
+
+
+
+
+footer ul li
+{
+
+    list-style-type: none;
+
+    display: flex;
+
+}
+
+footer
+{
+background-color: #424242;
+}
+
+@media (max-width: 767px)
+{
+	.ml-2 
+	{
+		display: none;
+	}
+	.sauron
+	{
+		display: none;
+	}
+}
+
+
+/* Gandalf Hover*/
+
+
+
+.card .card-img-top
+{
+	position: relative;
+	opacity: 0.6;
+}
+
+
+/* position du titre et réglage de l'opacité*/
+.card h2
+{
+    margin-top: : 10%;    
+    border-radius: 15px;
+    top: 5%;
+    font-size: 5em;
+    background-color: #EBE8E8;
+    opacity: 0.8;
+}
+
+.card .text span
+{
+	color : #F05411;
+}
+
+.card h5
+{
+    margin-top: : 10%;
+    margin-left: 15%;
+    margin-right: 10%;
+    border-radius: 25px;
+    position: absolute;
+    top: 5%;
+    font-size: 1.5em;
+    background-color: #EBE8E8;
+    opacity: 0.8;
+    padding: 5px 8px 5px 20px;
+}
+
+
+.card .text .gaga1
+{
+
+
+    position: absolute;
+    top: 5%;
+    font-size: 1.5em;
+    opacity: 0.8;
+    padding: 5px 8px 5px 2px;
+    text-align: center;
+
+}
+.card .text h3
+{
+	color: #F05411;
+	position: absolute;
+	top: 5%;
+	margin-left: 33%;
+	font-size: 2em;
+
+}
+
+
+
+.card .text .gandalf
+{
+	color : white;
+    margin-top: : 10%;
+    margin-left: 30%;
+    margin-right: 10%;
+    position: absolute;
+    top: 70%;
+    font-size: 2em;
+}
+
+
+.card .text .gimli
+{
+	color : white;
+    margin-top: : 10%;
+    margin-left: 30%;
+    margin-right: 10%;
+    position: absolute;
+    top: 70%;
+    font-size: 2em;
+}
+
+.card:hover .text .gimli
+{
+	color : white;
+    margin-top: : 10%;
+    margin-left: 30%;
+    margin-right: 10%;
+    position: absolute;
+    top: 40%;
+    font-size: 5em;
+    text-decoration: line-through #F05411;
+}
+
+
+.card:hover .card-img-top
+{
+    opacity: 1;
+}
+
+.card:hover .text .gandalf
+{
+	font-size: 3em;
+	position: absolute;
+	margin-left: 20%;
+	top: 40%;
+}
+
+.card:hover .text .gaga1
+{
+	display: none;
+}
+
+.card .text .hobbit
+{
+    margin-top: : 10%;
+    margin-left: 25%;
+    margin-right: 10%;
+    border-radius: 25px;
+    position: absolute;
+    top: 5%;
+    font-size: 1.5em;
+    background-color: #EBE8E8;
+    opacity: 0.8;
+    padding: 5px 8px 5px 20px;
+}
+
+.card .text .dead
+{
+	color : white;
+    margin-top: : 10%;
+    margin-left: 35%;
+    margin-right: 10%;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5em;
+}
+
+.card:hover .text .dead
+{
+    margin-top: : 40%;
+    margin-left: 15%;
+    margin-right: 10%;
+    border-radius: 25px;
+    position: absolute;
+    top: 0%;
+    font-size: 4em;
+    background-color: #EBE8E8;
+    opacity: 0.8;
+    padding: 5px 8px 5px 20px;
+    color: black;
+}
+/* intégartion 2*/
+/* organisation nav bar*/
+
+nav ul
+
+{
+    list-style-type: none;
+    display: flex;
+}
+
+
+nav li
+
+{
+	margin-right: 15px;
+    border-right: 1.5px solid white;
+}
+
+
+nav a
+
+{
+    font-size: 0.8em;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+
+nav a:hover
+
+{
+	color: white;
+    border-bottom: 1px solid white;
+}
+
+.container .navbar-nav
+{
+	padding-left: 15%;
+}
+
+
+#carouselExampleIndicators .carousel-control-prev 
+{
+	font-family: party business, arial;
+	font-size: 120px;
+}
+
+#carouselExampleIndicators .carousel-control-next
+{
+	font-family: party business, arial;
+	font-size: 120px;
+}
+
+
+#carouselExampleIndicators h2 
+{
+	font-family: party business, arial;
+	font-size: 4.5em;
+
+}
+
+#carouselExampleIndicators p 
+{
+	font-family: party business, arial;
+	font-size: 2.5em;
+}
+
+#carouselExampleIndicators .carousel-caption
+{
+   padding-bottom: 20%;
+}
+
+/* intégtion 2*/
+/* portraits*/
+
+.text
+
+{
+	font-family: aniron;
+}
+
+.card 
+{
+	background-color: black;
+	opacity: 0.8;
+
+}
+
+
+
+
+
+
+
+
+
